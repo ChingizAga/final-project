@@ -1,0 +1,53 @@
+.card {
+  position: relative;
+  width: 320px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-font {
+  color: #212529;
+}
+
+.price {
+  font-size: large;
+  font-weight: 600;
+  padding: 4px;
+  background-color: #f4ce14;
+  color: #242424;
+  margin-bottom: 10px;
+  align-self: flex-end; /* Aligns the price-tag to the end of the flex container */
+}
+
+.card .imgBx {
+  position: relative;
+  width: 100%;
+  height: 240px;
+  background: #f00; /* Fallback color */
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  overflow: hidden; /* Ensures children are contained within the rounded corners */
+}
+
+.card .content {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background: #ffffff;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: #000;
+}
+
+.pd {
+  padding: 0;
+}
